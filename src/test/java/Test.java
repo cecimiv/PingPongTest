@@ -27,9 +27,11 @@ class MainTest {
 
 }
 
+@Test
+    void shouldConvertToFive(){
+    assertEquals("V", toRoman(5));
 
-
-
+}
 
     private String toRoman(int number) {
         String result = "";
