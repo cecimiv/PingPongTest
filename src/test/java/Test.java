@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class MainTest {
+class MainTest {
 @Test
     void shouldConvertToOne() {
     assertEquals("I", toRoman(1));
@@ -14,6 +14,14 @@ public class MainTest {
     assertEquals("II", toRoman(2));
 
 }
+
+@Test
+    void shouldConvertToThree(){
+    assertEquals("III", toRoman(3));
+
+}
+
+
 
 
 
@@ -41,6 +49,4 @@ public class MainTest {
 
         return result;
     }
-
-
 }
