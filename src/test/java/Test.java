@@ -21,6 +21,12 @@ class MainTest {
 
 }
 
+@Test
+    void shouldConvertToFour(){
+    assertEquals("IV", toRoman(4));
+
+}
+
 
 
 
